@@ -14,6 +14,7 @@
 		3E39D7EB1B7B1A8200A913AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E39D7E91B7B1A8200A913AF /* LaunchScreen.storyboard */; };
 		3E39D7F61B7B1A8200A913AF /* PageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D7F51B7B1A8200A913AF /* PageAppTests.swift */; };
 		3E39D8011B7B1A8200A913AF /* PageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D8001B7B1A8200A913AF /* PageAppUITests.swift */; };
+		3E39D80F1B7B1B2900A913AF /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D80E1B7B1B2900A913AF /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E39D7FC1B7B1A8200A913AF /* PageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E39D8001B7B1A8200A913AF /* PageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageAppUITests.swift; sourceTree = "<group>"; };
 		3E39D8021B7B1A8200A913AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E39D80E1B7B1B2900A913AF /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3E39D7E71B7B1A8200A913AF /* Assets.xcassets */,
 				3E39D7E91B7B1A8200A913AF /* LaunchScreen.storyboard */,
 				3E39D7EC1B7B1A8200A913AF /* Info.plist */,
+				3E39D80E1B7B1B2900A913AF /* ContentViewController.swift */,
 			);
 			path = PageApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E39D7E31B7B1A8200A913AF /* ViewController.swift in Sources */,
+				3E39D80F1B7B1B2900A913AF /* ContentViewController.swift in Sources */,
 				3E39D7E11B7B1A8200A913AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
