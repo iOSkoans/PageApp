@@ -16,6 +16,23 @@ class ViewController: UIViewController, UIPageViewControllerDataSource, UIPageVi
     override func viewDidLoad() {
         super.viewDidLoad()
         createContentPages()
+        
+        pageController = UIPageViewController(
+            transitionStyle: .PageCurl, navigationOrientation: .Horizontal, options: nil)
+        pageController?.delegate = self
+        pageController?.dataSource = self
+        
+        let startingViewController: ContentViewController = viewControllerAtIndex(0)!
+        let viewControllers: NSArray = [startingViewController]
+        pageController!.setViewControllers(viewControllers as? [UIViewController], direction: UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
+        
+        self.addChildViewController(pageController!)
+        self.view.addSubview(self.pageController!.view)
+        
+        let pageViewRect = self.view.bounds
+        pageController!.view.frame = pageViewRect
+        pageController!.didMoveToParentViewController(self)
+
     }
     
     override func didReceiveMemoryWarning() {
