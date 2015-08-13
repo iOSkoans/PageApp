@@ -24,7 +24,7 @@
         <!--Content View Controller-->
         <scene sceneID="g0X-bM-A2h">
             <objects>
-                <viewController id="9S1-Ve-fag" customClass="ContentViewController" customModule="PageApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="contentView" id="9S1-Ve-fag" customClass="ContentViewController" customModule="PageApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i9m-a2-zpZ"/>
                         <viewControllerLayoutGuide type="bottom" id="9Sk-P7-tTf"/>
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1h-Mk-GKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989" y="389"/>
+            <point key="canvasLocation" x="1011" y="362"/>
         </scene>
     </scenes>
 </document>
